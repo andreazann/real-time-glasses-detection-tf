@@ -1,9 +1,17 @@
 # real-time-glasses-detection-tf
 
+Computer vision project using the TF2 object detection models to make real-time classification of objects from a webcam. In my case I trained a model to identify if I was wearing sunglasses or not. Video below.  
+Model used was `SSD MobileNet V2 FPNLite 320x320` downloaded from https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md.  
+This model has a speed of 22ms and 22.2 COCO mAP. Speed over precision was chosen since we're using it for real-time object detection
+
+## Video demo
+
+![computer-vision-glasses - Realizzato con Clipchamp](https://github.com/user-attachments/assets/d63b7a3e-58ac-4146-b41c-45ccbe0c741d)
+
 # Instructions for use
 ## Environment Setup
 
-1. Create a conda environment with `conda create --name [env_name] -r [requirements.txt]`. Download here the requirements.txt
+1. Create a conda environment with `conda create --name [env_name] -r [requirements.txt]`. Download here the [requirements.txt](https://github.com/user-attachments/files/17807039/requirements.txt)
 2. Enable CUDA and CuDNN for faster training
 
 ## Generating custom images and labels for training
@@ -24,7 +32,7 @@
 1. Open `gen_annotation.py` in the root of the repo. Replace in line 14 "Glasses" and "NoGlasses" with the names of your labels. Save it.
 2. Run `gen_annotation.py` with `python gen_annotation.py`
 3. Run `update_config.py` with `python update_config.py`
-4. Train the model with `python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --num_train_steps=10000` where in num_train_steps you can choose how many timesteps train the model
+4. Train the model with `python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --num_train_steps=10000` where in num_train_steps you can choose how many timesteps train the model. In the end if your model's loss is below 0.150 then it's good enough. 
 
 ## Run the model
 
