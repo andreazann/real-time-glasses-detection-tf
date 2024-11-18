@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>smiling-guy-glasses-black-tshirt-studio_1194258-20050.jpg</filename>
+	<path>C:\Users\ASUS\Documents\Coding\RealTimeObjectDetection\Tensorflow\workspace\images\allimages\smiling-guy-glasses-black-tshirt-studio_1194258-20050.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>626</width>
+		<height>417</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Glasses</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>208</xmin>
+			<ymin>121</ymin>
+			<xmax>394</xmax>
+			<ymax>185</ymax>
+		</bndbox>
+	</object>
+</annotation>

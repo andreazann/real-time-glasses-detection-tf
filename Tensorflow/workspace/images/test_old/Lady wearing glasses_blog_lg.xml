@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>Lady wearing glasses_blog_lg.jpg</filename>
+	<path>C:\Users\ASUS\Documents\Coding\RealTimeObjectDetection\Tensorflow\workspace\images\allimages\Lady wearing glasses_blog_lg.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>553</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Glasses</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>346</xmin>
+			<ymin>139</ymin>
+			<xmax>607</xmax>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+</annotation>

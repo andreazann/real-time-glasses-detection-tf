@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>header-How-Are-People-with-Glasses-Perceived-1024x536.jpg</filename>
+	<path>C:\Users\ASUS\Documents\Coding\RealTimeObjectDetection\Tensorflow\workspace\images\allimages\header-How-Are-People-with-Glasses-Perceived-1024x536.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>536</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Glasses</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>374</xmin>
+			<ymin>103</ymin>
+			<xmax>671</xmax>
+			<ymax>206</ymax>
+		</bndbox>
+	</object>
+</annotation>

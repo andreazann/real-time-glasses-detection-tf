@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg</filename>
+	<path>C:\Users\ASUS\Documents\Coding\RealTimeObjectDetection\Tensorflow\workspace\images\allimages\360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>540</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>NoGlasses</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>207</xmin>
+			<ymin>71</ymin>
+			<xmax>320</xmax>
+			<ymax>98</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>WIN_20241118_16_38_22_Pro.jpg</filename>
+	<path>C:\Users\ASUS\Documents\Coding\RealTimeObjectDetection\Tensorflow\workspace\images\allimages\WIN_20241118_16_38_22_Pro.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>NoGlasses</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>537</xmin>
+			<ymin>149</ymin>
+			<xmax>909</xmax>
+			<ymax>248</ymax>
+		</bndbox>
+	</object>
+</annotation>
